@@ -29,7 +29,7 @@ To manually install frappe/erpnext here are the steps
 
 Install bench as a *non root* user,
 
-	git clone https://github.com/frappe/bench bench-repo
+	git clone https://github.com/bpshetty/bench bench-repo
 	sudo pip install -e bench-repo
 
 Note: Please do not remove the bench directory the above commands will create
@@ -46,9 +46,9 @@ Note: Please do not remove the bench directory the above commands will create
 
 * Add apps
 
-	The get-app command gets remote frappe apps from a remote git repository and installs it. Example: [erpnext](https://github.com/frappe/erpnext)
+	The get-app command gets remote frappe apps from a remote git repository and installs it. Example: [erpnext](https://github.com/bpshetty/erpnext)
 
-		bench get-app erpnext https://github.com/frappe/erpnext
+		bench get-app erpnext https://github.com/bpshetty/erpnext
 
 * Add site
 
@@ -92,7 +92,7 @@ Open your Terminal and enter:
 
 For Linux:
 
-	wget https://raw.githubusercontent.com/frappe/bench/master/playbooks/install.py
+	wget https://raw.githubusercontent.com/bpshetty/bench/master/playbooks/install.py
 
 For Mac OSX:
 
@@ -100,7 +100,7 @@ Install X Code (from App store) and HomeBrew (http://brew.sh/) first
 
 	brew install python
 	brew install git
-	curl "https://raw.githubusercontent.com/frappe/bench/master/playbooks/install.py" -o install.py
+	curl "https://raw.githubusercontent.com/bpshetty/bench/master/playbooks/install.py" -o install.py
 
 #### 2. Run the install script
 
